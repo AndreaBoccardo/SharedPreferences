@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Desafio5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="seleccione_los_idiomas_que_maneje">Seleccione los idiomas que maneje</string>
+    <string name="espaniol">Español</string>
+    <string name="ingles">Inglés</string>
+    <string name="aleman">Alemán</string>
+    <string name="otro">Otro</string>
+    <string name="ingresa_otro_idioma">Ingresa otro idioma</string>
+    <string name="ingresa_un_nickname">Ingresa un nickname</string>
+    <string name="ingresa_tu_edad">Ingresa tu edad</string>
+    <string name="guardar">Guardar</string>
+    <string name="ms_bienvenida">Hola, a continuación podrás elegir tus opciones para usar esta aplicación</string>
+    <string name="ms_preferencia"> , estas son tus preferencias. Si quieres, las puedes modificar</string>
+    <string name="ms_selec_prefe"> A continuación puedes elegir tus preferencias</string>
+    <string name="seleccione_los_idiomas_que_maneja">Seleccione los idiomas que maneja</string>
+    <string name="perfil_del_usuario">Perfil del Usuario</string>
+    <string name="ms_nombre">Debe ingresar un nombre</string>
+    <string name="msg">Hola, a continuación podrás elegir tus opciones para usar esta aplicación</string>
+    <string name="ingrese_su_password">Ingrese su password</string>
+</resources>

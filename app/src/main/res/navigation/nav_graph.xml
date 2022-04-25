@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="cl.desafiolatm.desafio5.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_bienvenidaFragment"
+            app:destination="@id/bienvenidaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bienvenidaFragment"
+        android:name="cl.desafiolatm.desafio5.ui.BienvenidaFragment"
+        android:label="fragment_bienvenida"
+        tools:layout="@layout/fragment_bienvenida" >
+        <action
+            android:id="@+id/action_bienvenidaFragment_to_preferenciaFragment"
+            app:destination="@id/preferenciaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preferenciaFragment"
+        android:name="cl.desafiolatm.desafio5.ui.PreferenciaFragment"
+        android:label="fragment_preferencia"
+        tools:layout="@layout/fragment_preferencia" />
+</navigation>
